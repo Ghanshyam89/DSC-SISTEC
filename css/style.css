@@ -1,0 +1,197 @@
+#navdsclogo{
+    width: 60px;
+    
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox #dsclogo{
+    width: 250px;
+    position: relative;
+    vertical-align: middle;
+    margin: 5% 30% 0 30%;
+}
+.content .textBox h2{
+    color: rgba(34, 34, 34, 0.795);
+    font-size: 3.2em;
+    line-height: 1.1em;
+    font-weight: 500;
+    text-align: center;
+}
+.content .textBox h4{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(100, 99, 98);
+    /* padding-left: 20px; */
+} 
+.content .textBox p{
+    color: #fff;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none; 
+}
+.content .discord a{
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 100px;
+    color: #4885ed;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 220px;
+    border: solid 5px rgb(112, 177, 28);
+    text-decoration: none;
+}
+.content .discord a:hover{
+    color: #fff;
+    background: rgb(179, 179, 179);
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    transition: 0.5s;
+}
+.content .discord a:active{
+    color: #4885ed;
+    background: #fff;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    margin-right: -75px;
+    margin-top: 0px;
+    float : right;
+    justify-content: flex-end;
+}
+.content .imgBox .dsc3{
+    width: 500px;
+    padding-top: 60px;
+    justify-content: center;
+}
+#welcomesistec p{
+    font-size: 20px;
+}
+#googledevp p{
+    font-size: 20px;
+}
+#dev2{
+    width: 250px;
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 35%;
+}
+#googledev{
+    text-align: center;
+    width: 400px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 30%;
+}
+
+
+
+footer{
+    background: rgb(51, 51, 51);
+    padding: 50px 0 0;
+}
+.sci{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.sci li{
+    list-style: none;
+    margin: 0 20px;
+}
+.sci li a{
+    color: #777;
+    font-size: 2em;
+    transition: 0.5s;
+}
+#footerh4{
+    text-align: center;
+    color: #fff;
+}
+.sci li a:hover{
+    color: #fff;
+}
+#cypr{
+    color: #fff;
+}
+#cypr a{
+    color : #4885ed;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navdsclogo{
+        width: 40px;
+        height: 30px;
+    }
+    #navdsclogo a{
+        
+    }
+    .content .discord a{
+        position: relative;
+        margin: 28%;
+    }
+    .content .textBox #dsclogo{
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+    .content .imgBox .dsc3{
+        width: 0;
+        height: 0;
+        padding-top: 0;
+    }
+    #dev2{
+        width: 250px;
+        margin-left: 4%;
+    }
+    #googledev{
+        text-align: center;
+        width: 250px;
+        margin-left: 4%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .content .imgBox .dsc3{
+        width: 0;
+        height: 0;
+        padding-top: 0;
+    }
+}
+
